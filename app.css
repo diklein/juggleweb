@@ -1,0 +1,67 @@
+body { color: #000; }
+h1,h2,h3 {
+   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+   color: #333; }
+.full-width { width: 100%; margin-left: auto; margin-right: auto; max-width: initial; }
+.full-width-faq { width: 100%; margin-left: auto; margin-right: auto; max-width: initial; }
+
+.hero { background: url(../img/indexhero.jpg) top center no-repeat; background-size: cover; padding: 3% 0 24% 0; }
+.faqhero { background: #FFF; height: 200px; padding: 3% 0 0 0; }
+.hero h1 { color: #FFF; font-size: 3.4em; line-height: 1.2em; margin-bottom: 20px; text-shadow: 0 1px rgba(0,0,0, 0.3); }
+.hero-link { color: #FFF; text-shadow: 0 1px rgba(0,0,0, 0.3); }
+.hero i { color: #FFF; font-size: 1.4em;}
+
+.faqlist { padding: 50px 20px; }
+
+img { -webkit-user-select: none; }
+strong {font-weight: bold;}
+.contact-details dd { border-bottom: solid 1px #DDD !important;  }
+
+.intro { padding: 100px 0; }
+.intro img { margin-top: 50px; }
+.intro p { font-size: 1.2em; padding: 20px 20px; }
+
+.feature { padding: 0; }
+.feature p { font-family: "Helvetica Neue", Arial; font-size: 1.2em; margin-top: 5px; }
+.feature img { margin: 0; padding: 0; }
+.download { background: #FFF; padding: 50px 0; color: #FFF;}
+.download h2 {color: #333; padding-bottom: 20px; }
+.footer { background: #FFF; padding: 3% 0; }
+.footer p { font-size: 0.9em; color: #FFF; font-weight: 200; }
+.social { list-style: none; margin: 20px 0; padding: 0; }
+.social li { margin: 0; display: inline-block; padding: 0 10px; }
+.social a { color: #FF9500; }
+.social a:hover { padding-bottom: 2px; border-bottom: solid 1px #FF9500; }
+.grid { padding: 20px; }
+.grid-inner { padding: 10%; }
+
+.nav-links { text-align: right; }
+/*.nav-links a:hover { border-bottom: solid 1px #FFF; }*/
+.nav { margin-bottom: 12%; }
+.nav a { font-family: arial; font-weight: bold; color: #FFF; font-size: 1em; display: inline-block; margin: 0 10px; }
+.nav-faq a { font-family: arial; font-weight: bold; color: #FF9500; font-size: 1em; display: inline-block; margin: 0 10px; }
+.nav-faq a:hover { border-bottom: solid 1px #FF9500; }
+.nav-faq { margin-bottom: 0; }
+/*.nav-fix { margin-right: 6px; }*/
+
+.faq p { margin-bottom: 3em; }
+.faq h1 { margin-bottom: 1em; }
+
+.about { padding: 10% 0; }
+
+.video-link a { color: #FFF; padding-bottom: 2px; text-shadow: 0 1px rgba(0,0,0, 0.3); }
+.video-link a:hover { border-bottom: solid 1px #FFF; }
+.reveal-modal { padding: 0; background-color: #333; border: none; }
+.flex-video { margin-bottom: 0; }
+.slogan { font-family: "Helvetica Neue", Arial; color: #fff; font-size: 1.4em; padding-bottom: 20px;}
+.trademark { font-size: .1em; }
+.footer p { color: #333; }
+.copyright { margin-top: 20px; }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav a { margin-left: 6px; margin-right: 6px; }
+  .hero h1 { font-size: 1.8em; line-height: 1.0em; }
+  /*.video-link a { font-size: 16px; font-weight: bold; color: #FFF; padding-bottom: 2px; text-shadow: 0 1px rgba(0,0,0, 0.3); }*/
+}
