@@ -9,87 +9,87 @@ center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
 tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
 summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-weight: inherit;
-    font-style: inherit;
-    vertical-align: baseline
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-weight: inherit;
+   font-style: inherit;
+   vertical-align: baseline
 }
 
 body {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-    line-height: 1
+   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+   line-height: 1
 }
 
 ol, ul {
-    list-style: none
+   list-style: none
 }
 
 q, blockquote {
-    quotes: none
+   quotes: none
 }
 
 q:before, q:after, blockquote:before, blockquote:after {
-    content: "";
-    content: none
+   content: "";
+   content: none
 }
 
 a img {
-    border: none
+   border: none
 }
 
 html {
-    -webkit-font-smoothing: antialiased
+   -webkit-font-smoothing: antialiased
 }
 
 html, body {
-    color: #333;
+   color: #333;
 }
 
 a {
-    color: #00acf2;
-    cursor: pointer;
-    font-weight: normal;
-    text-decoration: none
+   color: #00acf2;
+   cursor: pointer;
+   font-weight: normal;
+   text-decoration: none
 }
 
 h2, h3, h4, h5 {
-    color: #333;
-    font-weight: 200;
+   color: #333;
+   font-weight: 200;
 }
 
 h1 {
-    font-size: 41px;
-    line-height: 54px;
-    color: #fff;
+   font-size: 41px;
+   line-height: 54px;
+   color: #fff;
 }
 
 h2, h3 {
-    font-size: 32px;
-    margin-bottom: 15px;
-    color: 808080;
+   font-size: 32px;
+   margin-bottom: 15px;
+   color: 808080;
 }
 
 h4, blockquote {
-    font-size: 22px;
+   font-size: 22px;
 }
 
 .left {
-    float: left
+   float: left
 }
 
 .right {
-    float: right
+   float: right
 }
 
 .container {
-    overflow: hidden;
-    * zoom: 1;
-    width: 960px;
-    margin: 0 auto;
-    position: relative
+   overflow: hidden;
+   * zoom: 1;
+   width: 960px;
+   margin: 0 auto;
+   position: relative
 }
 
 .container ul {
@@ -97,154 +97,154 @@ h4, blockquote {
 }
 
 #ft {
-    margin: 0 auto;
-    padding: 30px 0 100px 0;
-    overflow: hidden;
+   margin: 0 auto;
+   padding: 30px 0 100px 0;
+   overflow: hidden;
 
 }
 
 #ft ul {
-    display: inline;
-    float: left
+   display: inline;
+   float: left
 }
 
 #ft ul li {
-    display: inline;
-    margin-right: 15px
+   display: inline;
+   margin-right: 15px
 }
 
 #ft ul li.home a {
-    color: #333333
+   color: #333333
 }
 
 #ft ul li a {
-    color: #656e75
+   color: #656e75
 }
 
 #ft ul li:hover {
-    text-decoration: underline
+   text-decoration: underline
 }
 
 #ft .right {
-    font-size: 12px;
-    padding-top: 2px
+   font-size: 12px;
+   padding-top: 2px
 }
 
 #hd .container {
-    padding: 40px 0 35px 0
+   padding: 40px 0 35px 0
 }
 
 
 #bd {
-    background-color: white;
-    padding-top: 40px;
-    position: relative
+   background-color: white;
+   padding-top: 40px;
+   position: relative
 }
 
 #bd .shadow {
-    height: 43px;
-    left: 50%;
-    margin-left: -530px;
-    opacity: 0.3;
-    position: absolute;
-    width: 1060px
+   height: 43px;
+   left: 50%;
+   margin-left: -530px;
+   opacity: 0.3;
+   position: absolute;
+   width: 1060px
 }
 
 #bd .shadow.top {
-    background: url(/images/upper_shadow.png) no-repeat 0 -15px;
-    top: 0;
-    z-index: 100
+   background: url(/images/upper_shadow.png) no-repeat 0 -15px;
+   top: 0;
+   z-index: 100
 }
 
 #bd {
-    padding-top: 0
+   padding-top: 0
 }
 
 h2 {
-    background: url(/images/h2_bg.png) repeat-x 0 2px;
-    margin-bottom: 50px;
-    text-align: center
+   background: url(/images/h2_bg.png) repeat-x 0 2px;
+   margin-bottom: 50px;
+   text-align: center
 }
 
 h2 span {
-    background-color: white;
-    padding: 0 20px
+   background-color: white;
+   padding: 0 20px
 }
 
 .container {
-    width: 900px
+   width: 900px
 }
 
 #hero {
-    background: /*url(/images/hero_bg.png) no-repeat center center;*/
-    background: #ff9500; /* Old browsers */
-    background: -moz-linear-gradient(top, #ff9500 0%, #fc5f42 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9500), color-stop(100%,#fc5f42)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #ff9500 0%,#fc5f42 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #ff9500 0%,#fc5f42 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #ff9500 0%,#fc5f42 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #ff9500 0%,#fc5f42 100%); /* W3C */
-    position: relative
+   background: /*url(/images/hero_bg.png) no-repeat center center;*/
+   background: #ff9500; /* Old browsers */
+   background: -moz-linear-gradient(top, #ff9500 0%, #fc5f42 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9500), color-stop(100%,#fc5f42)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top, #ff9500 0%,#fc5f42 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top, #ff9500 0%,#fc5f42 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top, #ff9500 0%,#fc5f42 100%); /* IE10+ */
+   background: linear-gradient(to bottom, #ff9500 0%,#fc5f42 100%); /* W3C */
+   position: relative
 }
 
 .app-store-btn {
-  margin-bottom: 100px;
+   margin-bottom: 100px;
 }
 
 #hero .container {
-    height: 430px;
-    overflow: visible
+   height: 430px;
+   overflow: visible
 }
 
 #hero h1 {
-    margin-bottom: 30px;
-    width: 500px;
-    font-weight: 200;
+   margin-bottom: 30px;
+   width: 500px;
+   font-weight: 200;
 }
 
 #hero blockquote {
-    margin-bottom: 5px
+   margin-bottom: 5px
 }
 
 #hero .left {
-    padding: 54px 0 0 0
+   padding: 54px 0 0 0
 }
 
 #hero .phone {
-    bottom: 0;
-    position: absolute;
-    right: -90px
+   bottom: 0;
+   position: absolute;
+   right: -90px
 }
 
 #hero .shadow.bottom {
-    background: url(/images/bottom_shadow.png) no-repeat 0 15px;
-    bottom: 0
+   background: url(/images/bottom_shadow.png) no-repeat 0 15px;
+   bottom: 0
 }
 
 #description {
-    padding: 60px 0
+   padding: 60px 0
 }
 
 #description h3 {
-    color: #333;
-    margin-bottom: 14px
+   color: #333;
+   margin-bottom: 14px
 }
 
 #description p {
-    font-size: 18px;
-    line-height: 24px;
-    color: #333;
-    font-weight: normal;
+   font-size: 18px;
+   line-height: 24px;
+   color: #333;
+   font-weight: normal;
 }
 
 #description #groups, #description #sms {
-    clear: both
+   clear: both
 }
 
 #description #groups .text, #description #sms .text {
-    float: right;
-    margin: 100px 0 0 0;
-    width: 410px
+   float: right;
+   margin: 100px 0 0 0;
+   width: 410px
 }
 
 #description #groups img {
@@ -256,174 +256,174 @@ h2 span {
 }
 
 #description #devices .text {
-    float: left;
-    margin-top: 140px;
-    text-align: right;
-    width: 315px
+   float: left;
+   margin-top: 140px;
+   text-align: right;
+   width: 315px
 }
 
 #description #sms img {
-    margin-left: 80px
+   margin-left: 80px
 }
 
 #description #sms .text {
-    margin-top: 110px
+   margin-top: 110px
 }
 
 #suggested_groups {
-    padding: 90px 0
+   padding: 90px 0
 }
 
 #suggested_groups .suggestion {
-    background: #ff9500;
-    float: left;
-    margin: 0 17px 50px 0;
-    padding: 6px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
+   background: #ff9500;
+   float: left;
+   margin: 0 17px 50px 0;
+   padding: 6px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   -ms-border-radius: 2px;
+   -o-border-radius: 2px;
+   border-radius: 2px;
 }
 
 .suggestion-text {
-  color: #fff;
-  font-size: 16px;
-  font-weight: normal;
+   color: #fff;
+   font-size: 16px;
+   font-weight: normal;
 }
 
 #suggested_groups .suggestion.last {
-    margin-right: 0
+   margin-right: 0
 }
 
 #suggested_groups h4 {
-    margin: 6px 0 4px 0;
-    text-align: center
+   margin: 6px 0 4px 0;
+   text-align: center
 }
 
 #description #devices img {
-      padding-left: 100px
+   padding-left: 100px
 }
 
 @media screen and (max-width: 768px) {
-    .app-store-btn {
+   .app-store-btn {
       margin-bottom: 40px;
-    }
+   }
 
-    #description #devices img {
-          padding-left: 0
-    }
+   #description #devices img {
+      padding-left: 0
+   }
 
-    #bd h1 {
-        font-size: 36px;
-        line-height: 40px;
-        width: auto
-    }
+   #bd h1 {
+      font-size: 36px;
+      line-height: 40px;
+      width: auto
+   }
 
-    #hd .container, #bd .container, #ft .container {
-        height: auto;
-        overflow: hidden;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-        width: auto
-    }
+   #hd .container, #bd .container, #ft .container {
+      height: auto;
+      overflow: hidden;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      width: auto
+   }
 
-    #hd #logo {
-        float: left
-    }
+   #hd #logo {
+      float: left
+   }
 
-    #bd {
-        overflow: hidden
-    }
+   #bd {
+      overflow: hidden
+   }
 
-    #bd .left, #bd .right {
-        float: none
-    }
+   #bd .left, #bd .right {
+      float: none
+   }
 
-    #bd .shadow {
-        height: 61px !important
-    }
+   #bd .shadow {
+      height: 61px !important
+   }
 
-    #ft ul, #ft .right {
-        display: block;
-        float: none;
-        font-size: 10px
-    }
+   #ft ul, #ft .right {
+      display: block;
+      float: none;
+      font-size: 10px
+   }
 
-    .text {
-        width: auto !important;
-        margin: 0 !important;
-        text-align: center !important
-    }
+   .text {
+      width: auto !important;
+      margin: 0 !important;
+      text-align: center !important
+   }
 
-    #features, #suggested_groups, .fixed,
-    #return_to_mobile, .screens {
+   #features, #suggested_groups, .fixed,
+   #return_to_mobile, .screens {
 
-    }
+   }
 
-    #hero .container {
-        height: auto
-    }
+   #hero .container {
+      height: auto
+   }
 
-    #hero h1 {
-        width: auto !important
-    }
+   #hero h1 {
+      width: auto !important
+   }
 
-    #hero .button {
+   #hero .button {
 
-    }
+   }
 
-    .press {
+   .press {
       margin-bottom: 40px;
-    }
+   }
 
-    #hero img.phone {
-        height: auto !important;
-        position: relative !important;
-        right: auto !important;
-        top: auto !important;
-        width: 495px !important;
-    }
+   #hero img.phone {
+      height: auto !important;
+      position: relative !important;
+      right: auto !important;
+      top: auto !important;
+      width: 495px !important;
+   }
 
-    #hero .left {
-        padding-top: 34px !important
-    }
+   #hero .left {
+      padding-top: 34px !important
+   }
 
-    #groups p, #sms p, #devices p {
-        margin-bottom: 60px !important
-    }
+   #groups p, #sms p, #devices p {
+      margin-bottom: 60px !important
+   }
 
-    #groups img, #sms img, #devices img {
-        margin: 0 0 10px 0 !important
-    }
+   #groups img, #sms img, #devices img {
+      margin: 0 0 10px 0 !important
+   }
 
-    #groups img, #sms img {
-        height: auto;
-        width: 60% !important
-    }
+   #groups img, #sms img {
+      height: auto;
+      width: 60% !important
+   }
 
-    #devices img {
-        height: auto !important;
-        max-width: 100% !important
-    }
+   #devices img {
+      height: auto !important;
+      max-width: 100% !important
+   }
 
-    #sms p {
-        margin-bottom: 0 !important
-    }
+   #sms p {
+      margin-bottom: 0 !important
+   }
 
 }
 
 blockquote {
-  color: #fff;
+   color: #fff;
 }
 .real-juggler {
-  color: rgba(255,255,255,1);
-  font
+   color: rgba(255,255,255,1);
+   font
 }
 
 @media (min-width: 768px) {
-    html {
-        height: 100%
-    }
+   html {
+      height: 100%
+   }
 }
