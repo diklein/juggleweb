@@ -237,36 +237,33 @@ h2 span {
    font-weight: normal;
 }
 
-#description #groups, #description #sms {
+#description #groups, #description #chat {
    clear: both
 }
 
-#description #groups .text, #description #sms .text {
+#description #groups .text, #description #chat .text {
    float: right;
-   margin: 100px 0 0 0;
+   margin: 200px 0 0 0;
    width: 410px
 }
 
 #description #groups img {
-
-}
-
-.clearfix {
    margin-top: 60px;
 }
 
 #description #devices .text {
    float: left;
-   margin-top: 140px;
+   margin-top: 200px;
    text-align: right;
    width: 315px
 }
 
-#description #sms img {
-   margin-left: 80px
+#description #chat img {
+   margin-left: 80px;
+   margin-top: 60px;
 }
 
-#description #sms .text {
+#description #chat .text {
    margin-top: 110px
 }
 
@@ -302,7 +299,8 @@ h2 span {
 }
 
 #description #devices img {
-   padding-left: 100px
+   padding-left: 100px;
+   margin-top: 60px;
 }
 
 @media screen and (max-width: 768px) {
@@ -390,17 +388,17 @@ h2 span {
       padding-top: 34px !important
    }
 
-   #groups p, #sms p, #devices p {
+   #groups p, #chat p, #devices p {
       margin-bottom: 60px !important
    }
 
-   #groups img, #sms img, #devices img {
+   #groups img, #chat img, #devices img {
       margin: 0 0 10px 0 !important
    }
 
-   #groups img, #sms img {
+   #groups img, #chat img {
       height: auto;
-      width: 60% !important
+      width: 60% !important;
    }
 
    #devices img {
@@ -408,7 +406,7 @@ h2 span {
       max-width: 100% !important
    }
 
-   #sms p {
+   #chat p {
       margin-bottom: 0 !important
    }
 
