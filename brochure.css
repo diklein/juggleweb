@@ -92,6 +92,10 @@ h4, blockquote {
     position: relative
 }
 
+.container ul {
+   padding-bottom: 2px;
+}
+
 #ft {
     margin: 0 auto;
     padding: 30px 0 100px 0;
@@ -239,12 +243,12 @@ h2 span {
 
 #description #groups .text, #description #sms .text {
     float: right;
-    margin: 55px 100px 0 0;
+    margin: 100px 0 0 0;
     width: 410px
 }
 
 #description #groups img {
-    margin-left: 69px
+
 }
 
 #description #devices img {
@@ -257,7 +261,7 @@ h2 span {
 
 #description #devices .text {
     float: left;
-    margin-top: 70px;
+    margin-top: 140px;
     text-align: right;
     width: 315px
 }
@@ -275,7 +279,7 @@ h2 span {
 }
 
 #suggested_groups .suggestion {
-    background: #f1f1f1;
+    background: #ff9500;
     float: left;
     margin: 0 17px 50px 0;
     padding: 6px;
@@ -287,7 +291,7 @@ h2 span {
 }
 
 .suggestion-text {
-  color: #333;
+  color: #fff;
   font-size: 16px;
   font-weight: normal;
 }
