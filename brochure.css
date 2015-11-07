@@ -251,10 +251,6 @@ h2 span {
 
 }
 
-#description #devices img {
-      padding-left: 100px
-}
-
 .clearfix {
    margin-top: 60px;
 }
@@ -305,11 +301,18 @@ h2 span {
     text-align: center
 }
 
+#description #devices img {
+      padding-left: 100px
+}
+
 @media screen and (max-width: 768px) {
     .app-store-btn {
       margin-bottom: 40px;
     }
 
+    #description #devices img {
+          padding-left: 0
+    }
 
     #bd h1 {
         font-size: 36px;
@@ -408,6 +411,7 @@ h2 span {
     #sms p {
         margin-bottom: 0 !important
     }
+
 }
 
 blockquote {
