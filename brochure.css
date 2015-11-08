@@ -272,7 +272,7 @@ h2 span {
 }
 
 #suggested_groups .suggestion {
-   background: #ff9500;
+   background: #f1f1f1;
    float: left;
    margin: 0 17px 50px 0;
    padding: 6px;
@@ -284,7 +284,7 @@ h2 span {
 }
 
 .suggestion-text {
-   color: #fff;
+   color: #333;
    font-size: 16px;
    font-weight: normal;
 }
