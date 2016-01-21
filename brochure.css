@@ -127,7 +127,7 @@ h4, blockquote {
 
 .container {
    overflow: hidden;
-   * zoom: 1;
+   zoom: 1;
    width: 960px;
    margin: 0 auto;
    position: relative
@@ -195,18 +195,11 @@ h4, blockquote {
    width: 1060px
 }
 
-#bd .shadow.top {
-   background: url(/images/upper_shadow.png) no-repeat 0 -15px;
-   top: 0;
-   z-index: 100
-}
-
 #bd {
    padding-top: 0
 }
 
 h2 {
-   background: url(/images/h2_bg.png) repeat-x 0 2px;
    margin-bottom: 50px;
    text-align: center
 }
@@ -221,7 +214,7 @@ h2 span {
 }
 
 #hero {
-   background: /*url(/images/hero_bg.png) no-repeat center center;*/
+   background: url(/images/hero_bg.png) no-repeat center center;
    background: #ff9500; /* Old browsers */
    background: -moz-linear-gradient(top, #ff9500 0%, #fc5f42 100%); /* FF3.6+ */
    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9500), color-stop(100%,#fc5f42)); /* Chrome,Safari4+ */
@@ -233,7 +226,48 @@ h2 span {
 }
 
 .app-store-btn {
-   margin-bottom: 100px;
+   margin-bottom: 10px;
+}
+
+.watch-video {
+   margin-bottom: 80px;
+}
+
+.watch-video a {
+   color: #fff;
+}
+
+.hide {
+   display: none;
+}
+
+.video-overlay {
+   background-color: rgba(255, 255, 255, 0.9);
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+}
+
+iframe {
+   display: block;
+   margin: 40px auto 40px auto;
+}
+
+.video-area {
+
+}
+
+.close-video {
+   text-align: center;
+   font-size: 16px;
+}
+
+.close-video a {
+   color: #ff9500;
 }
 
 #hero .container {
@@ -404,13 +438,12 @@ h2 span {
    .header-download-button {
       background-color: #fff;
       color: #ff9500;
-      font-weight: normal;
+      font-weight: 500;
       padding-right: 0;
    }
 
-   .header-download-button a:visited {
+   .header-download-button:hover {
       background-color: #fff;
-      color: #ff9500;
    }
 
    #bd h1 {
@@ -507,6 +540,29 @@ h2 span {
       margin-bottom: 0 !important
    }
 
+   .right li {
+      display: block !important;
+      font-size: 16px;
+      margin-bottom: 24px;
+   }
+
+   .right ul {
+      margin-top: 24px;
+   }
+
+   #ft ul li {
+      margin-right: 0;
+   }
+
+   .mobile-shift {
+      margin-right: 15px !important;
+   }
+
+   iframe {
+      margin-top: 0;
+      margin-bottom: 6px;
+   }
+
 }
 
 blockquote {
@@ -514,7 +570,6 @@ blockquote {
 }
 .real-juggler {
    color: rgba(255,255,255,1);
-   font
 }
 
 @media (min-width: 768px) {
